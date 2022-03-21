@@ -56,11 +56,18 @@ footer .nav-copy a {
 }
 
 footer .nav-copy a:hover {
-    color: var(--the-red);
+    background-color: var(--the-red);
 }
 
-.navbar-credenciall {
+.navbar-credenciall .navbar-toggler {
+    border: 2px solid var(--third-blue);
+    font-size: 2em;
+    padding: 0px;
+}
 
+.navbar-credenciall .navbar-toggler .navbar-toggler-icon {
+    color: var(--third-blue);
+    padding: 6px 0px 0px 0px;
 }
 
 .bg-credenciall {
@@ -179,13 +186,12 @@ footer .nav-copy a:hover {
 }
 
 #members .member-pic {
-    width: 200px;
-    height: 200px;
-    background-color: #031e3b;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    position: relative;
-    float: right;
     overflow: hidden;
+    margin-bottom: 26px;
+    text-align: center;
 }
 
 #members .member-pic > img {
