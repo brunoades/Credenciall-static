@@ -1,7 +1,7 @@
 :root {
     --main-green: #009174;
     --first-blue: #1489c4;
-    --second-blue: #d9fff7;
+    --second-blue: #aef8e8;
     --third-blue: #031e3b;
     --brown: #9e3528;
     --the-red: #c41422;
@@ -56,7 +56,7 @@ footer .nav-copy a {
 }
 
 footer .nav-copy a:hover {
-    background-color: var(--the-red);
+    color: var(--the-red);
 }
 
 .navbar-credenciall .navbar-toggler {
@@ -162,6 +162,10 @@ footer .nav-copy a:hover {
     padding: 120px 0;
 }
 
+#features {
+    background-color: #fff;
+}
+
 #members {
     padding-top: 60px;
 }
@@ -176,13 +180,12 @@ footer .nav-copy a:hover {
 
 #members .member-card {
     width: 100%;
-    height: 100%;
     background-color: var(--off-white);
     border-radius: 8px;
     padding: 36px 36px 0px 36px;
-    /* box-shadow: 2px 1px 16px var(--main-green); */
-    border: 2px solid var(--third-blue);
-    min-height: 328px;
+    /* border: 2px solid var(--third-blue); */
+    min-height: 440px;
+    
 }
 
 #members .member-pic {
