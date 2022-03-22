@@ -6,7 +6,7 @@
     --brown: #9e3528;
     --the-red: #c41422;
     --light-black: #292929;
-    --off-white: rgb(252, 252, 252);
+    --off-white: #fcfcfc;
 }
 
 body {
@@ -51,13 +51,18 @@ footer .copy {
     font-size: 0.8em;
 }
 
-footer .nav-copy a {
+footer .nav-copy a, .nav-social a {
     color: var(--light-black);
 }
 
-footer .nav-copy a:hover {
+footer .nav-copy a:hover, .nav-social a:hover {
     color: var(--the-red);
 }
+
+footer .nav-social {
+    font-size: 2em;
+}
+
 
 .navbar-credenciall .navbar-toggler {
     border: 2px solid var(--third-blue);
@@ -113,7 +118,7 @@ footer .nav-copy a:hover {
     position:relative;
     width: 100%;
     height:15vh;
-    margin-bottom:-7px; /*Fix for safari gap*/
+    margin-bottom:-7px;
     min-height:100px;
     max-height:150px;
 }
@@ -158,12 +163,17 @@ footer .nav-copy a:hover {
     padding-bottom: 36px;
 }
 
-#features, #permissions, #team {
+#features, #permissions, #team, #database {
     padding: 120px 0;
 }
 
 #features {
     background-color: #fff;
+}
+
+#team {
+    /* background-color: var(--off-white); */
+    background-image: linear-gradient(#aef8e8 0%, #fcfcfc 45%);
 }
 
 #members {
@@ -185,6 +195,7 @@ footer .nav-copy a:hover {
     padding: 36px 36px 0px 36px;
     /* border: 2px solid var(--third-blue); */
     min-height: 440px;
+    box-shadow: 0 10px 16px -8px rgb(0 0 0 / 10%);
     
 }
 
@@ -219,4 +230,7 @@ footer .nav-copy a:hover {
     text-transform: none;
     letter-spacing: normal;
     
+}
+
+#logo-footer {
 }
