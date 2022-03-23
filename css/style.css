@@ -239,3 +239,13 @@ footer p {
 
 #logo-footer {
 }
+
+#map {
+    border-radius: 8px;
+    padding: 4px;
+    background-color: var(--off-white);
+}
+
+#contact {
+    margin-bottom: 36px;
+}

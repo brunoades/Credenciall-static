@@ -34,9 +34,6 @@
                 <a class="nav-link" href="contato.html">Contato</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <button class="btn btn-outline-success" type="submit">Contato</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -57,20 +54,27 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col"></div>
                 <div class="col">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nome</label>
-                        <input type="email" class="form-control" id="name" placeholder="Nome completo">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Sua mensagem</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.0702972413396!2d-46.54648658439439!3d-23.0945223504044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cec73275266b3f%3A0x39bf7f2f95ceea09!2sCentro%20Universit%C3%A1rio%20UNIFAAT!5e0!3m2!1sen!2sbr!4v1648054264122!5m2!1sen!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="email" class="form-control" id="name" placeholder="Nome completo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Sua mensagem</label>
+                            <textarea class="form-control" id="message" rows="6"></textarea>
+                        </div>
+                        <div class="mb-3 text-end">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
