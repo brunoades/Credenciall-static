@@ -63,6 +63,11 @@ footer .nav-social {
     font-size: 2em;
 }
 
+footer p {
+    margin: 0;
+    padding: 0.5rem 0px;
+}
+
 
 .navbar-credenciall .navbar-toggler {
     border: 2px solid var(--third-blue);
@@ -124,7 +129,7 @@ footer .nav-social {
 }
 
 .parallax > use {
-    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
   }
   .parallax > use:nth-child(1) {
     animation-delay: -2s;
