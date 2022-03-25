@@ -237,9 +237,6 @@ footer p {
     
 }
 
-#logo-footer {
-}
-
 #map {
     border-radius: 8px;
     padding: 4px;
@@ -250,11 +247,20 @@ footer p {
     margin-bottom: 36px;
 }
 
-#login-form {
-
-}
-
 #header-login {
     padding-top: 94px;
     padding-bottom: 64px;
+}
+
+#header-login header {
+    padding: 0px;
+}
+
+#login-form .forget-pass {
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+#login-form .forget-pass:hover {
+    color: var(--the-red);
 }

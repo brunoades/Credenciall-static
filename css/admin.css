@@ -1,0 +1,13 @@
+@import url(style.css);
+
+#header-login h1 {
+    margin-top: 36px;
+}
+
+#dashboard .card {
+    margin-bottom: 16px;
+}
+
+#dashboard .card-header i {
+    font-size: 2em;
+}
